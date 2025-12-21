@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@source "../pages/**/*.{js,jsx}";
+@source "../components/**/*.{js,jsx}";
+
+html,
+body {
+    overflow: hidden;
+    user-select: none;
+}

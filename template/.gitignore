@@ -1,0 +1,57 @@
+# dependencies
+node_modules
+/renderer/node_modules
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# next.js & nextron
+.next
+/renderer/.next
+next-env.d.ts
+*.tsbuildinfo
+
+# build & distribution
+/app
+/dist
+/out
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+
+# Tailwind & PostCSS
+.stylelintcache
+.parcel-cache
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Electron-builder specific
+# Some configurations use /dist_electron or /build
+/dist_electron
+/build
+
+# Tailwind CSS v4 Cache
+# Tailwind v4 has an internal cache for its new high-performance engine
+.tailwindcss
+
+# Next.js 14+ specific
+# New build engines sometimes generate a .swc folder
+.swc/
+
+# pnpm or yarn berry support (future-proofing)
+.pnpm-debug.log*
+.pnpm-store/
+.yarn/
+.pnpm-lock.yaml

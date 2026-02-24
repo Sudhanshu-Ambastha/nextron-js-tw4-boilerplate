@@ -7,6 +7,7 @@ This template was created to bypass the limitations of official Nextron examples
 providing a **CSS-first styling engine** without the overhead of TypeScript or
 outdated PostCSS configurations.
 
+<img src="./image.png">
 ---
 
 ## ✨ Why This Template?
